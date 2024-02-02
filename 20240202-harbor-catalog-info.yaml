@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Kubernetes_Registory_NCJ
+  tags: ['Kubernetes']
+  description: |
+    APISIXにある、経済産業省gbiz API
+  links:
+    - title: Registory
+      url: https://registry.cbcpp-prod.com/
+    - title: 公式ページ
+      url: https://goharbor.io
+spec:
+  type: openapi
+  owner: group:default/team-devops
+  lifecycle: experimental
+  system: isd-system
+  definition: |
+    openapi: "2.0"
+    info:
+      version: 2.0
+    title: Harbor is an open source registry that secures artifacts 
+    servers:
+      - url: registry.cbcpp-prod.com/api/v2.0
