@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Kubernetes_Registory_NCJ
-  tags: ['Kubernetes']
+  tags: ['k8s']
   description: |
     APISIXにある、経済産業省gbiz API
   links:
