@@ -4,7 +4,7 @@ metadata:
   name: Kubernetes_Registory_NCJ
   tags: ['k8s']
   description: |
-    APISIXにある、経済産業省gbiz API
+    Kubernetesのプライベートリポジトリのharbor
   links:
     - title: Registory
       url: https://registry.cbcpp-prod.com/
